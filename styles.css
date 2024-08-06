@@ -3,20 +3,20 @@ body{
     margin: 0px;
 }
 
-.maincontainer{
+#main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.header, .footer, .hero{
+#header, #footer, #first{
     background: #1F2937;
 }
 
-.quote{
+#third{
     background: #E5E7EB;
 }
 
-.footer{
+#footer{
     position: fixed;
     bottom: 0px;
     width: 100%;
