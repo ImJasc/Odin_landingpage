@@ -1,6 +1,9 @@
 body{
     font-family: "Roboto";
     margin: 0px;
+}
+
+.maincontainer{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -11,6 +14,12 @@ body{
 
 .quote{
     background: #E5E7EB;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
 
 #header{
