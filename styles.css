@@ -32,7 +32,7 @@ body{
     justify-content: space-between;
     align-items: center;
     color: #f9faf8;
-    font-size: 48px;
+    font-size: 24px;
     font-weight: bolder;
     margin: 0px;
 }
@@ -43,4 +43,5 @@ ul{
     gap: 10px;
     color: #E5E7EB;
     font-size: 18px;
+    font-weight: lighter;
 }
