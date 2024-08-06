@@ -20,6 +20,11 @@ body{
     position: fixed;
     bottom: 0px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
+    font-size: 10px;
+    padding: 20px;
 }
 
 #header{
