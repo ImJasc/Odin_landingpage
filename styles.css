@@ -1,7 +1,32 @@
+body{
+    font-family: "Roboto";
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .header, .footer, .hero{
     background: #1F2937;
 }
 
 .quote{
     background: #E5E7EB;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    color: #E5E7EB;
+    font-size: 18px;
 }
