@@ -8,6 +8,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
+
 #header, #footer, #first{
     background: #1F2937;
 }
@@ -100,4 +101,42 @@ ul{
     color: #E5E7EB;
     font-size: 18px;
     font-weight: lighter;
+}
+
+.section#second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px 48px 48px 48px;    
+}
+
+.information#title{    
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;    
+    justify-content: center;
+    display: flex;    
+    margin-bottom: 40px;
+}
+
+.information#maincontainer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 25px;
+}
+
+.information#picture{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+.information#text{
+    text-align: center;
+    max-width: 150px;
+    color: #1F2937;
+
 }
