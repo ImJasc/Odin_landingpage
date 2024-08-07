@@ -146,6 +146,7 @@ ul{
     justify-content: center;
     flex-direction: column;
     padding: 80px;
+    align-items: center;
 }
 
 .quote#text{
@@ -160,16 +161,8 @@ ul{
 }
 
 .quote#author{
-    display: flex;
     text-align: right;
     font-weight: bold;
-}
-
-.quote#textcontainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
 .section#fourth{
