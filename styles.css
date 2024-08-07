@@ -18,7 +18,7 @@ body{
 }
 
 #footer{
-    position: fixed;
+    position: relative;
     bottom: 0px;
     width: 100%;
     display: flex;
@@ -48,7 +48,7 @@ body{
     border-radius: 8px;
     padding: 8px 32px;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 16px;    
 }
 
 p{
@@ -139,4 +139,63 @@ ul{
     max-width: 150px;
     color: #1F2937;
 
+}
+
+.section#third{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px;
+}
+
+.quote#text{
+    display: flex;
+    justify-content: center;    
+    font-size: 36px;
+    font-style: italic;
+    max-width: 800px;
+    color: #1F2937;
+    margin-bottom: 10px;
+    
+}
+
+.quote#author{
+    display: flex;
+    text-align: right;
+    font-weight: bold;
+}
+
+.quote#textcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section#fourth{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.call-it#container{
+    display: flex;
+    justify-content: space-between;
+    gap: 160px;
+    background: #3882F6;
+    padding: 40px 80px;
+    border-radius: 8px;
+}
+
+.call-it#sign-up{
+    border: 2px solid #E5E7EB;
+}
+
+.call-it#main-text{
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.call-it#sub-text{
+    color: #E5E7EB;
 }
